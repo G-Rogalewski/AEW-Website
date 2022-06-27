@@ -1,0 +1,61 @@
+/*****HEADER******/
+.fundo-header {
+    background-color: #000;
+}
+.links-header {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.links-header:hover {
+    color: #B19534;
+    transition: 0.5s;
+}
+
+/****BODY****/
+.fundo-body {
+    background-color: #F0EEEE;
+}
+
+.carousel-image {
+    width: 100%;
+   opacity: 0.5;
+}
+
+.carousel-title {
+    color: #fff;
+    text-shadow: 3px 3px #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 52px;
+
+}
+
+.carousel-text {
+    color: #fff;
+    text-shadow: 3px 3px #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.carousel-button {
+    color: #fff;
+    background-color: #B19534;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 12px 50px;
+    margin-bottom: 30%;
+    border-right: 3px solid #75621e;
+    border-bottom: 3px solid #75621e;
+}
+
+.carousel-button:hover {
+    background-color: #000;
+    border-right: 3px solid #000;
+    border-bottom: 3px solid #000;
+    transition: 0.3s;
+    cursor: pointer;
+}
