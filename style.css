@@ -1,5 +1,5 @@
 /*****HEADER******/
-.fundo-header {
+header {
     background-color: #000;
 }
 .links-header {
@@ -14,7 +14,7 @@
 }
 
 /****BODY****/
-.fundo-body {
+body {
     background-color: #F0EEEE;
 }
 
@@ -53,9 +53,35 @@
 }
 
 .carousel-button:hover {
-    background-color: #000;
+    background-color: #0e0e0e;
     border-right: 3px solid #000;
     border-bottom: 3px solid #000;
     transition: 0.3s;
     cursor: pointer;
+}
+
+/****FOOTER****/
+footer {
+    background-color: #000;
+}
+
+.img-footer {
+    text-align: center;
+}
+
+.footer-logo {
+    width: 100px;
+    padding-top: 20px;
+}
+
+footer div p {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 15px 0;
+}
+
+.social-medias {
+    text-align: center;
+    padding-bottom: 15px;
 }
