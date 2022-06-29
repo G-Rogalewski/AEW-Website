@@ -13,6 +13,10 @@ header {
     transition: 0.5s;
 }
 
+.social-header {
+    margin-top: 7px;
+}
+
 /****BODY****/
 main {
     background-color: #F0EEEE;
