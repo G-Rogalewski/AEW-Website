@@ -105,6 +105,16 @@ section div h2 {
     margin-left: 30px;
 }
 
+.mini-img {
+    position: relative;
+    bottom: 320px;
+}
+
+.mini-img2 {
+    position: relative;
+    bottom: 690px;
+}
+
 /****FOOTER****/
 footer {
     background-color: #000;
