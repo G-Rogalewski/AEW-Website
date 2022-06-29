@@ -107,12 +107,17 @@ section div h2 {
 
 .mini-img {
     position: relative;
-    bottom: 320px;
+    bottom: 20rem;
 }
 
 .mini-img2 {
     position: relative;
-    bottom: 690px;
+    bottom: 43.4rem;
+}
+
+.mini-img3 {
+    position: relative;
+    bottom: 64.6rem;
 }
 
 /****FOOTER****/
