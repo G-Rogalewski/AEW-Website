@@ -149,3 +149,44 @@ footer div p {
     text-align: center;
     padding-bottom: 15px;
 }
+
+/****RESPONSIVO****/
+@media only screen and (min-width: 411px) and (max-width: 551px) {
+.carousel-title {
+    font-size: 20px;
+}
+
+.carousel-text {
+    font-size: 14px;
+}
+
+.carousel-button {
+    font-size: 12px;
+    padding: 6px 20px;
+    margin-bottom: 5%;
+}
+}
+
+@media only screen and (min-width: 552px) and (max-width: 771px) {
+.carousel-title {
+    font-size: 28px;
+}
+    
+.carousel-text {
+font-size: 18px;
+}
+    
+.carousel-button {
+font-size: 12px;
+padding: 10px 40px;
+margin-bottom: 5%;
+}
+}
+
+@media only screen and (min-width: 772px) and (max-width: 920px) {
+.carousel-button {
+font-size: 12px;
+padding: 10px 40px;
+margin-bottom: 10%;
+}
+}
