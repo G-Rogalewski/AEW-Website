@@ -190,3 +190,45 @@ padding: 10px 40px;
 margin-bottom: 10%;
 }
 }
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+.mini-img {
+    bottom: 18rem;
+}
+
+.mini-img2 {
+    bottom: 39rem;
+}
+
+.mini-img3 {
+    bottom: 58rem;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .mini-img {
+        bottom: 15rem;
+    }
+    
+    .mini-img2 {
+        bottom: 36rem;
+    }
+    
+    .mini-img3 {
+        bottom: 56rem;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .mini-img {
+        bottom: 15.5rem;
+    }
+    
+    .mini-img2 {
+        bottom: 36rem;
+    }
+    
+    .mini-img3 {
+        bottom: 57rem;
+    }
+}
