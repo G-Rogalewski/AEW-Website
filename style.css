@@ -181,6 +181,7 @@ footer div p {
 .roster-title {
     background-color: #000;
     border: 1px solid #000;
+    margin-bottom: 15px;
 }
 
 .roster-img {
