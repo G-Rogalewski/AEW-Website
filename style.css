@@ -188,11 +188,13 @@ footer div p {
     width: 100%;
     padding-bottom: 30px;
     transition: 0.4s;
+    filter: grayscale(100%);
 }
 
 .roster-img:hover {
     transform: scale(1.1);
     transition: 0.4s;
+    filter: grayscale(0%);
 }
 
 /****RESPONSIVO****/
