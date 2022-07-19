@@ -159,7 +159,7 @@ footer div p {
 
 /****PLANTEL****/
 .roster {
-    background-image: url(images/bg-roster.jpg);
+    background-image: url(../images/bg-roster.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -168,7 +168,7 @@ footer div p {
     padding: 7% 0;
 }
 
-.roster p {
+.roster p, .events p {
     color: #fff;
     font-size: 50px;
     text-transform: uppercase;
@@ -195,4 +195,15 @@ footer div p {
     transform: scale(1.1);
     transition: 0.4s;
     filter: grayscale(0%);
+}
+
+/***EVENTOS***/
+.events {
+    background-image: url(../images/bg-events.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7% 0; 
 }
