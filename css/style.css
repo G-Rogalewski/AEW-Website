@@ -15,7 +15,7 @@ header {
     font-weight: 600;
 }
 
-.links-header:hover {
+.links-header:hover, .links-header-actual:hover {
     color: #B19534;
     transition: 0.5s;
 }
